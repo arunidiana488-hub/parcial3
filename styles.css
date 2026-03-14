@@ -1,0 +1,88 @@
+/* Configuración general */
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal de la tarjeta */
+.card {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabecera roja */
+.card-header {
+    background-color: #ef5350; /* Color rojo de la imagen */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Círculo con el número 1 */
+.badge {
+    border: 1.5px solid white;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.id-code {
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+/* Cuerpo blanco */
+.card-body {
+    padding: 20px;
+    color: #333;
+}
+
+.description {
+    margin: 0 0 20px 0;
+    font-size: 0.95rem;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    margin-bottom: 10px;
+}
+
+/* Pie de la tarjeta */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.label {
+    color: #9e9e9e;
+    font-weight: bold;
+}
+
+.date {
+    color: #9e9e9e;
+}
